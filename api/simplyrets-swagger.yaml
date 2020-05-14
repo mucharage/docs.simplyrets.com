@@ -475,6 +475,12 @@ definitions:
         format: double
         type: number
         description: Price of the listing
+      originalListPrice:
+        format: double
+        type: number
+        description: |
+          The original price of the property on the initial agreement
+          between the seller and the seller's broker
       internetAddressDisplay:
         type: boolean
         description: The IDX address display requirements of the listing from the MLS.
